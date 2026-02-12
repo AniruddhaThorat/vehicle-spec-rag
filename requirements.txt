@@ -1,0 +1,10 @@
+faiss-cpu
+sentence-transformers
+PyMuPDF
+numpy
+scikit-learn
+nltk
+transformers
+accelerate
+bitsandbytes
+torch
