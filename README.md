@@ -169,12 +169,7 @@ Run UI locally: python app.py
 **UI Preview**
 
 
-
-\### UI Demo
-
-
-
-<img src="ui\_demo.png" width="900">
+<img src="./ui_demo.png" width="1000">
 
 
 
