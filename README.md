@@ -170,7 +170,11 @@ Run UI locally: python app.py
 
 
 
-!\[UI Demo](ui\_demo.png)
+\### UI Demo
+
+
+
+<img src="ui\_demo.png" width="900">
 
 
 
