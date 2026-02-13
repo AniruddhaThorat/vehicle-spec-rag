@@ -97,45 +97,25 @@ Reason:
 
 
 vehicle-spec-rag/
-
 │
-
 ├── notebook/
-
 │   └── rag\_pipeline.ipynb
-
 │
-
 ├── src/
-
 │   ├── pdf\_reader.py
-
 │   ├── chunking.py
-
 │   ├── embedding.py
-
 │   ├── retrieval.py
-
 │   ├── extractor.py
-
 │   └── pipeline.py
-
 │
-
 ├── data/
-
 │   └── sample\_manual.pdf
-
 │
-
 ├── output/
-
 │   └── example\_results.json
-
 │
-
 ├── requirements.txt
-
 └── README.md
 
 
