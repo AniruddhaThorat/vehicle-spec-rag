@@ -92,6 +92,56 @@ Reason:
 
 
 
+**Repository Structure**
+
+
+
+vehicle-spec-rag/
+
+│
+
+├── notebook/
+
+│   └── rag\_pipeline.ipynb
+
+│
+
+├── src/
+
+│   ├── pdf\_reader.py
+
+│   ├── chunking.py
+
+│   ├── embedding.py
+
+│   ├── retrieval.py
+
+│   ├── extractor.py
+
+│   └── pipeline.py
+
+│
+
+├── data/
+
+│   └── sample\_manual.pdf
+
+│
+
+├── output/
+
+│   └── example\_results.json
+
+│
+
+├── requirements.txt
+
+└── README.md
+
+
+
+
+
 
 
 **Setup :**
@@ -108,9 +158,7 @@ Use notebook: notebook/rag\_pipeline.ipynb or python src/pipeline.py
 
 
 
-
-
-Single query Example: 
+Single query Example:
 
 Torque specification for brake caliper bolts
 
@@ -152,18 +200,3 @@ This implementation explores:
 * local LLM vs API-based inference
 * deterministic structured prompting for extraction
 * FAISS indexing performance on technical documents
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
