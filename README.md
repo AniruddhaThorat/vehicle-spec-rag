@@ -152,7 +152,7 @@ pip install -r requirements.txt
 
 **Run** :
 
-Use notebook: notebook/rag\_pipeline.ipynb or python src/pipeline.py
+Use notebook: notebook/rag\_pipeline.ipynb
 
 
 
