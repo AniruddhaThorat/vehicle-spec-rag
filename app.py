@@ -21,4 +21,4 @@ demo = gr.Interface(
     description="Upload a vehicle workshop manual and extract structured technical specifications."
 )
 
-demo.launch()
+demo.launch(share=True)
