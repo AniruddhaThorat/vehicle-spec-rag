@@ -16,18 +16,7 @@ Automotive workshop manuals contain large volumes of unstructured technical data
 
 
 
-This project builds a local **Retrieval-Augmented Generation (RAG)** pipeline that:
-
-* processes large PDF manuals
-* retrieves relevant technical context
-* uses a locally hosted LLM (Mistral-7B) for structured extraction
-* returns machine-readable JSON specifications
-
-
-
-
-
-**System Architecture**
+**Approach**
 
 
 
@@ -44,7 +33,7 @@ Pipeline stages:
 
 
 
-This architecture enables:
+This enables:
 
 
 
@@ -188,15 +177,31 @@ Example Output:\[
 
 
 
-**Research Contributions**
+**Evaluation Coverage**
 
 
 
-This implementation explores:
+* This implementation demonstrates:
+* LLM + retrieval fundamentals
+* Modular, readable pipeline design
+* Semantic search using FAISS
+* Structured JSON extraction
+* Local LLM inference workflow
 
 
 
-* retrieval quality vs chunk size trade-offs
-* local LLM vs API-based inference
-* deterministic structured prompting for extraction
-* FAISS indexing performance on technical documents
+
+
+
+
+**Future Improvements**
+
+
+
+* OCR support for scanned manuals
+* UI for interactive querying
+* Schema validation for outputs
+* Domain fine-tuning for automotive specs
+
+
+
