@@ -1,4 +1,4 @@
-**Vehicle Specification Extraction using RAG + Local LLM**
+**Vehicle Specification Extraction using RAG + Local LLM (Mistral-7B)**
 
 
 
@@ -145,6 +145,35 @@ Use notebook: notebook/rag\_pipeline.ipynb
 
 
 
+**User Interface (Gradio)**
+
+A simple Gradio-based interface is provided for interactive specification extraction.
+
+
+
+Features:
+
+
+
+* Upload vehicle service manual (PDF)
+* Enter specification query
+* Retrieve structured JSON output
+* Runs on local LLM (Mistral-7B)
+
+
+
+Run UI locally: python app.py
+
+
+
+**UI Preview**
+
+
+
+!\[UI Demo](ui\_demo.png)
+
+
+
 
 
 Single query Example:
@@ -199,9 +228,5 @@ Example Output:\[
 
 
 * OCR support for scanned manuals
-* UI for interactive querying
 * Schema validation for outputs
 * Domain fine-tuning for automotive specs
-
-
-
