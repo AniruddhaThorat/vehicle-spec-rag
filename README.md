@@ -2,7 +2,9 @@
 
 
 
-This project implements a Retrieval-Augmented Generation (RAG) pipeline to extract structured automotive specifications from workshop manuals using a locally hosted LLM (Mistral-7B).
+**Project Summary**
+
+This project builds a fully local Retrieval-Augmented Generation (RAG) system to extract structured automotive specifications from large workshop manuals. It combines semantic retrieval (FAISS + Sentence-Transformers) with instruction-tuned LLM inference (Mistral-7B) to produce deterministic JSON outputs. The system runs offline and is designed for scalable technical document understanding.
 
 
 
@@ -43,6 +45,10 @@ This enables:
 * deterministic structured outputs
 
 
+
+**System Architecture**
+
+PDF → Chunking → Embeddings → FAISS Retrieval → Local LLM → JSON Extraction
 
 
 
@@ -229,3 +235,13 @@ Example Output:\[
 * OCR support for scanned manuals
 * Schema validation for outputs
 * Domain fine-tuning for automotive specs
+
+
+
+**Key Contributions**
+
+* End-to-end local RAG pipeline for technical document understanding
+* Deterministic structured extraction using instruction prompting
+* Modular retrieval architecture (chunking → embeddings → FAISS)
+* Integration of local quantized LLM for production-like deployment
+* Interactive Gradio UI for real-time querying
