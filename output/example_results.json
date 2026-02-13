@@ -1,0 +1,14 @@
+[
+  {
+    "component": "Brake caliper bolts",
+    "spec_type": "Torque",
+    "value": "250",
+    "unit": "Nm"
+  },
+  {
+    "component": "Brake caliper bolts",
+    "spec_type": "Torque",
+    "value": "184",
+    "unit": "lb-ft"
+  }
+]
