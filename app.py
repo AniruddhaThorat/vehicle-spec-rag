@@ -20,5 +20,4 @@ demo = gr.Interface(
     title="Vehicle Spec Extraction using RAG + Local Mistral",
     description="Upload a vehicle workshop manual and extract structured technical specifications."
 )
-
 demo.launch(share=True)
